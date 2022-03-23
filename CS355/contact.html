@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="stylescontact.css">
+    
+    <!-- <script src="example.js"></script> -->
+    <title>Contact Us</title>
+</head>
+<body>
+    
+    <!-- header section starts -->
+
+    <header class="header">
+
+        <a href="index.html" class="logo">
+            <img src="OurLogo.png" alt="ezimports">
+        </a>
+
+        <nav class="navbar">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+
+        <div class="icons">
+            <div class="fas fa-search" id="search-btn"></div>
+            <div class="fas fa-bars" id="menu-btn"></div>
+        </div>
+        
+        <div class="search-form">
+            <input type="search" id="search-box" placeholder="search...">
+            <label for="search-box" class="fas fa-search"></label>
+        </div>
+
+        <div class="menu-form">
+            <ul class="list">
+                    <li><a href="index.html" class="fas fa-home"> Home</a></li>
+                    <li><a href="about.html" class="fas fa-user-alt"> About</a></li>
+                    <li><a href="contact.html" class="fas fa-envelope"> Contact</a></li>
+            </ul>
+        </div>   
+    </header>
+
+    <section class="contactus" id="contactus"> 
+        <div class="content">
+            <h1 class="heading">Contact <span>Us</span></h1>    
+            <p>Please feel free to reach out to us using this contact form regarding any general questions or merchandise questions.</p>
+        </div>   
+        <div class="forms">
+            <form>
+                <div class="labels">
+                    <input type="text" id="name" placeholder="Name" required>
+                    <label for="name"></label>
+                </div>
+                 <div class="labels">
+                    <input type="text" id="email" placeholder="Email" required>
+                     <label for="email"></label>
+                </div>
+                <div class="labels">
+                    <input type="text" id="phone" placeholder="Phone Number" required>
+                    <label for="phone"></label>
+                </div>
+                <div class="labels">
+                    <input type="text" id="vehicle" placeholder="Vehicle">
+                    <label for="vehicle"></label>
+                </div>
+                <div class="labels">
+                    <textarea id="message" rows="8" placeholder="Message" required></textarea>
+                    <label for="message"></label>
+                </div>
+                <button type="submit">SUBMIT</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- custom js file link -->
+    <script src="script.js"></script>
+</body>
+</html>

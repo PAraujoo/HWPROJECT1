@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+  
+    <!-- <script src="example.js"></script> -->
+    <title>ezimports</title>
+</head>
+<body>
+    
+    <!-- header section starts -->
+
+    <header class="header">
+
+        <a href="index.html" class="logo">
+            <img src="OurLogo.png" alt="ezimports">
+        </a>
+
+        <nav class="navbar">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+
+        <div class="icons">
+            <div class="fas fa-search" id="search-btn"></div>
+            <div class="fas fa-bars" id="menu-btn"></div>
+        </div>
+        
+        <div class="search-form">
+            <input type="search" id="search-box" placeholder="search...">
+            <label for="search-box" class="fas fa-search"></label>
+        </div>
+
+        <div class="menu-form">
+            <ul class="list">
+                    <li><a href="index.html" class="fas fa-home"> Home</a></li>
+                    <li><a href="about.html" class="fas fa-user-alt"> About</a></li>
+                    <li><a href="contact.html" class="fas fa-envelope"> Contact</a></li>
+            </ul>
+        </div>        
+    </header>
+
+
+    <!-- home section starts -->
+    <section class="home" id="home">
+
+        <div class="content">
+            <h3>'02 MkIV Toyota Supra</h3>
+            <p>The most successful iteration of Toyota's Supra line, made famous
+                by its role in the 'Fast and the Furious', this beast can reach
+                over 200mph fine tuned! 
+            </p>
+            <p>
+                <span>Starting Price: $30,000</span>
+            </p>
+            <!--<a href="#" class="btn">Reserve</a>-->
+            <button class="btn">Reserve</button>
+        </div>
+
+    </section>
+    <!-- home section ends -->
+
+    <!-- Featured Products section starts -->
+    <section class="featured" id="featured">
+        <h1 class="heading"><span>Featured</span> Products</h1>
+        
+        <div class="row">
+            <div class="content">
+                <h3>'99 Nissan Skyline R34-GTR</h3>
+                <p>An iconic car that revolutionized the industry with its 
+                    advanced RB26DETT engine, this legend packs 280bhp stock
+                    reaching a top speed of 155mph!</p>
+                <p><span>Starting Price: $40,000</span></p>
+                <button class="btn">Reserve</button>
+            </div>
+    
+            <div class="image">
+                <img src="Skyline.jpg" alt="">
+            </div>
+        </div>
+
+        <div class="secondrow">
+            <div class="image">
+                <img src="RX7.jpg" alt="97Rx7">
+            </div>
+    
+            <div class="content">
+                <h3>'97 Mazda Rx7</h3>
+                <p>The third generation of the Rx7 line was one of the greatest
+                    cars of the '90s, boasting a beastly twin turbo engine that rocks
+                    237bhp, while reaching a top speed of 155mph, and a 0-60 of 5.3 seconds.
+                    In today's time an exceptionally rare get!</p>
+                <p><span>Starting Price: $65,000</span></p>
+                <button class="btn">Reserve</button>
+            </div>
+        </div>
+    </section>
+    <!-- Featured Products section ends -->
+
+    <!--More section starts -->
+    <section class="more" id="more">
+        <h1 class="heading">Gallery</h1>
+
+        <div class="container">
+            <div class="panel active" style="background-image: url('s2k.jpg')">
+                <h3>Honda <span>S2000</span></h3>
+            </div>
+            <div class="panel" style="background-image: url('nsx.jpg')">
+                <h3>Acura <span>NSX</span></h3>
+            </div>
+            <div class="panel" style="background-image: url('s15.jpg')">
+                <h3>Nissan <span>Silvia</span></h3>
+            </div>
+            <div class="panel" style="background-image: url('evo.jpg')">
+                <h3>Lancer Evo<span> IX</span></h3>
+            </div>
+            <div class="panel" style="background-image: url('eclipse.jpg')">
+                <h3>Mitsubishi <span>Eclipse</span></h3>
+            </div>
+        </div>
+    </section>
+    <!--More section ends -->
+    <!-- custom js file link -->
+    <script src="script.js"></script>
+</body>
+</html>

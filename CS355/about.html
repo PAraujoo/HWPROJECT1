@@ -1,0 +1,140 @@
+<DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+        <link rel="stylesheet" href="styles.css">
+        <title>About Us</title>
+    <meta name ="viewport" content="width=device-width, initial-scale=1">
+    <style>
+    
+    body {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color:white;
+    font-family: Arial,sans-serif,Helvetica;
+    margin:0;
+    }
+    html{
+    box-sizing:border-box;
+    }
+    .content {
+    max-width:750px;
+    margin:auto;
+    background: #8b0000;
+    padding: 10px;
+    
+    }
+    .column{
+    float:left;
+    width:33.3%
+    margin-bottom:16px;
+    padding:8px;
+    
+    .card{
+    box-shadow:0 4px 8px 0 rgba(0,0,0,0.2);
+    margin 8px;
+    }
+    
+    .about-section {
+    padding: 50px;
+    text-align: center;
+    background-color: ;
+    color: white;
+    }
+    
+    .container {
+    padding: 0 16px;
+    
+    
+    }
+    
+    .container::after, .row::after {
+    content: "";
+    clear: both;
+    display: table;
+    }
+    
+    @media screen and (max-width: 650px) {
+    .column {
+    width: 100%;
+    display: block;
+    }
+    </style>
+    </head>
+    
+    <body>
+        <header class="header">
+    
+            <a href="index.html" class="logo">
+                <img src="OurLogo.png" alt="ezimports">
+            </a>
+    
+            <nav class="navbar">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+    
+            <div class="icons">
+                <div class="fas fa-search" id="search-btn"></div>
+                <div class="fas fa-bars" id="menu-btn"></div>
+            </div>
+            
+            <div class="search-form">
+                <input type="search" id="search-box" placeholder="search...">
+                <label for="search-box" class="fas fa-search"></label>
+            </div>
+
+            <div class="menu-form">
+            <ul class="list">
+                    <li><a href="index.html" class="fas fa-home"> Home</a></li>
+                    <li><a href="about.html" class="fas fa-user-alt"> About</a></li>
+                    <li><a href="contact.html" class="fas fa-envelope"> Contact</a></li>
+            </ul>
+        </div> 
+        </header>
+    <div class="content">
+    
+    <div class="about-section">
+    <h1>About Us</h1>
+    </div>
+    
+    <h2 style="text-align:center"></h2>
+    <div class="row">
+    <div class="column">
+    <div class="card">
+    <img src="cars.webp"alt="supra" style="width:100%">
+    <div class="container">
+    
+    <p><span style="font-weight: 400">We are a Japanese Domestic Market car selling website.
+     We proud ourselves on selling mint-condition, top of the line,
+     vintage Japanese cars that enthusiasts have dream about.
+     The business ethos is to make sure the customer has as smooth 
+     of an experience as possible when lookin to buy their dream JDM car</span></p>
+    </div>
+    </div>
+    </div>
+    </div>
+    <div class="column">
+    <div class="card">
+    <img src="oldJapanese.webp" alt="car" style="width:100%">
+    <div class="container">
+    
+    <p><span style="font-weight: 400">We offer a simplistic, yet effective way for enthusiasts
+     to browse and purchase a vehicle. Other websites in the car
+     selling industry have clusttered and confusing UL's so we aim
+     to stand out from the competition. And we believe we have done so.</span></p>
+    </div>
+    </div>
+    </div>
+    </div>
+    
+    <script src="script.js"></script>
+    </body>
+    </html>
+    
