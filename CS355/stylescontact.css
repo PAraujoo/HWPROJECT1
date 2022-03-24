@@ -16,17 +16,17 @@ body {
     background: var(--bg);
     display: flex;
     align-items: center;
-    /* recently adding this */
+    
     justify-content: space-between;
     padding: 1.5rem 7%;
     border-bottom: var(--border);
-    /* adding this */
+    
     position: fixed;
     top: 0;
     left: 0;
     right: 0;
     z-index: 1000;
-    /*border-bottom: 1px solid #8b0000;*/
+    
 }
 
 .header .logo img {
@@ -92,9 +92,7 @@ body {
     text-transform: none;
 }
 .header .menu-form .list li {
-  /*  display: flex;
-    align-items: center;
-    justify-content: center;*/
+ 
     padding: 5px;
     width: 90rem;
 
@@ -121,7 +119,7 @@ body {
     height: 5rem;
     display: flex;
     align-items: center;
-    /* recently adding this */
+    
     transform: scaleY(0);
     transform-origin: top;
 }
@@ -139,7 +137,7 @@ body {
     text-transform: none;
 
 }
-/* recently adding this */
+
 .header .search-form label {
     cursor: pointer;
     font-size: 2.2rem;
@@ -150,16 +148,16 @@ body {
 .header .search-form label:hover {
     color: var(--main-color);
 }
-/* recently added to this ^-- */
+
 .header .search-form input:hover {
     color: #8b0000;
 }
 .navbar a:hover{
     color: var(--main-color);
-    /* recently adding this: */
+    
     border-bottom: .1rem solid var(--main-color);
     padding-bottom: .5rem;
-    /* ^-- recently adding this */
+    
 }
 
 section{
@@ -171,7 +169,7 @@ section{
     text-align: center;
     color: #fff;
     text-transform: none;
-    /*padding-bottom: 3.5rem;*/
+    
     font-size: 4rem;
 }
 .heading span{
@@ -191,10 +189,7 @@ section{
     color: var(--main-color);
     text-align: center;
 }
-/*.contactus .content .forms {
-    width: 90%;
-    max-width: 600px;
-}*/
+
 form{
     width: 90%;
     max-width: 600px;
@@ -217,7 +212,7 @@ input, textarea{
 
 label{
     height: 100%;
-    /* position: absolute;*/
+   
     left: 0;
     top: 0;
     padding: 10px;
@@ -238,7 +233,7 @@ button{
 
 html {
     font-size: 70%;
-   /* overflow-x: hidden;*/
+   
     scroll-padding-top: 9rem;
     scroll-behavior: smooth;
 }
