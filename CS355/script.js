@@ -1,8 +1,3 @@
-/*const icon = document.querySelector('.icon');
-const search = document.querySelector('.search');
-icon.onclick = function();
-    search.classList.toggle('active'); */
-
 let searchBar = document.querySelector('.search-form');
 
 document.querySelector('#search-btn').onclick = () => {
