@@ -16,17 +16,17 @@ body {
     background: var(--bg);
     display: flex;
     align-items: center;
-    /* recently adding this */
+    
     justify-content: space-between;
     padding: 1.5rem 7%;
     border-bottom: var(--border);
-    /* adding this */
+    
     position: fixed;
     top: 0;
     left: 0;
     right: 0;
     z-index: 1000;
-    /*border-bottom: 1px solid #8b0000;*/
+    
 }
 
 .header .logo img {
@@ -92,9 +92,7 @@ body {
     text-transform: none;
 }
 .header .menu-form .list li {
-  /*  display: flex;
-    align-items: center;
-    justify-content: center;*/
+  
     padding: 5px;
     width: 90rem;
 
@@ -121,7 +119,7 @@ body {
     height: 5rem;
     display: flex;
     align-items: center;
-    /* recently adding this */
+   
     transform: scaleY(0);
     transform-origin: top;
 }
@@ -139,7 +137,7 @@ body {
     text-transform: none;
 
 }
-/* recently adding this */
+
 .header .search-form label {
     cursor: pointer;
     font-size: 2.2rem;
@@ -150,16 +148,16 @@ body {
 .header .search-form label:hover {
     color: var(--main-color);
 }
-/* recently added to this ^-- */
+
 .header .search-form input:hover {
     color: #8b0000;
 }
 .navbar a:hover{
     color: var(--main-color);
-    /* recently adding this: */
+    
     border-bottom: .1rem solid var(--main-color);
     padding-bottom: .5rem;
-    /* ^-- recently adding this */
+    
 }
 
 html {
@@ -170,15 +168,15 @@ html {
 }
 
 /* home section starts here */
-/* just added .btn for reserve button */
+
 .btn{
     margin-top: 1rem;
-    /*display: inline-block;*/
+  
     padding: .6rem 3rem;
     font-size: 1.7rem;
     color: #fff;
     background: var(--main-color);
-    /*background-color: #13131a;*/
+ 
     cursor: pointer;
     text-decoration: none;
     border-radius: 12px;
@@ -186,7 +184,7 @@ html {
 }
 
 .btn:hover{
-    /*letter-spacing: .2rem;*/
+    
     box-shadow: inset 145px 0 0 0 #13131a;
     cursor: pointer;
 
@@ -202,8 +200,7 @@ section{
     background:url(SupraModded.jpg) no-repeat;
     background-size: cover;
     background-position: center;
-    /* adding this */
-   /* padding: 0 9%; */
+    
    padding: 0 8%;
 
 }
@@ -255,32 +252,22 @@ section{
 }
 
 .featured .row .image {
-    /*flex: 1 1 45rem;*/
+    
     flex: 1;
     
 }
 
 .featured .row .image img{
-    /*width:1000px;*/
+    
     width: 100%;
-    /*padding: 50px;*/
-    /*padding-right: 2px;*/
-    /*padding-left: 5px;*/
+   
 }
 
 .featured .row .content{
-    /*flex: 1 1 45rem;*/
-    /*flex: 50rem;*/
+  
     flex: 1;
     padding: 2rem;
-    /*padding: 50px;*/
-    /*margin-right: 80px;
-    margin-left: 0px;*/
-    /*width: 2500px;*/
-   /* background-color: var(--black);*/
-    /*height: 468px;
-    width: 50%;
-    padding-right:5px;*/
+   
 }
 
 .featured .row .content h3 {
@@ -292,10 +279,9 @@ section{
 .featured .row .content p{
     font-size: 1.6rem;
     color: var(--main-color);
-    /*padding: 1rem 0;*/
-    /*padding: 50px;*/
+    
     padding: 10px;
-   /* line-height: 1.8; */
+  
 }
 .featured .row .content p span{
     color: #fff;
@@ -307,30 +293,20 @@ section{
     flex-wrap: wrap;
 }
 .featured .secondrow .image {
-    /*flex: 1 1 45rem;*/
+    
     flex: 1 1 7.5rem;
     
 }
 .featured .secondrow .image img{
-    /*width:1000px;*/
+    
     width: 100%;
-    /*padding: 50px;*/
-    /*padding-right: 2px;*/
-    /*padding-left: 5px;*/
+   
 }
 .featured .secondrow .content{
-    /*flex: 1 1 45rem;*/
-    /*flex: 50rem;*/
+   
     flex: 1;
     padding: 2rem;
-    /*padding: 50px;*/
-    /*margin-right: 80px;
-    margin-left: 0px;*/
-    /*width: 2500px;*/
-   /* background-color: var(--black);*/
-    /*height: 468px;
-    width: 50%;
-    padding-right:5px;*/
+    
 }
 .featured .secondrow .content h3 {
     font-size: 3rem;
@@ -340,25 +316,14 @@ section{
 .featured .secondrow .content p{
     font-size: 1.6rem;
     color: var(--main-color);
-    /*padding: 1rem 0;*/
-    /*padding: 50px;*/
+    
     padding: 10px;
-    /*line-height: 1.8; */
+  
 }
 .featured .secondrow .content p span{
     color: #fff;
 }
 
-/*.featured .content{
-    padding-left: 24px;
-    padding-right: 24px;
-}*/
-
-/*.featured .content, .featured .image{
-    display: table-cell;
-    width: 50%;
-    vertical-align: middle;
-}*/
 /* featured section ends here */
 
 /* more section starts here */
@@ -369,7 +334,7 @@ section{
 .more .container div{
     box-sizing: border-box;
     display: flex;
-    /*flex-direction: column;*/
+    
     align-items: center;
     justify-content: center;
     height: 100vh;
